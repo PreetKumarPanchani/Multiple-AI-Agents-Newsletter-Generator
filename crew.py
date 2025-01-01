@@ -8,7 +8,7 @@ crew = Crew(
     process=Process.sequential
 )
 
-topic="Artifical Intelligence in Finance"
+topic="Artifical Intelligence in Trading Stocks"
 result=crew.kickoff(inputs={"topic":topic})
 print(result)
 
